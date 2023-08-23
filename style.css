@@ -1,0 +1,86 @@
+******document******/ html {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+body {
+  display: grid;
+  text-align: center;
+  background-color: lemonchiffon;
+  grid-template-columns: 24% 50% 24%;
+}
+body nav {
+  grid-row-start: 1;
+  grid-row-end: span 3;
+  border: darkslateblue solid 2px;
+}
+nav img {
+  max-width: 80px;
+  max-height: 80px;
+}
+nav div {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+body .nav-2 {
+  grid-column-start: 3;
+  grid-row-end: 3;
+  border: mediumblue solid 2p;
+}
+.nav-2 img,
+nav img {
+  max-width: 80px;
+  max-height: 80px;
+}
+/*****header*****/
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  width: 80px;
+  border: mediumvioletred solid 2px;
+}
+header ol {
+  list-style-type: none;
+  border: purple solid 2px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  justify-content: center;
+}
+header ol li {
+  padding: 10px;
+}
+header ol li a {
+  text-decoration-line: none;
+}
+header input {
+  border: black solid 2px;
+  height: 30px;
+}
+/*******main*******/
+main {
+  background-color: burlywood;
+}
+/*******footer******/
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: red solid 3px;
+  background-color: cornflowerblue;
+}
+footer img {
+  width: 100px;
+}
+footer .box6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: black solid 3px;
+  list-style: none;
+  padding: 0px;
+}
